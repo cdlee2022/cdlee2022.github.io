@@ -218,7 +218,7 @@ function hit() {
             alert("You burst! You lose!");
             document.getElementById("game_results").innerHTML = "You burst! You lose!";
             canHit = false;
-            showResults();
+            canStand = false;
             return;
         }  
     }
