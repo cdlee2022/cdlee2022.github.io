@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: green;
+}
+
+#cards_dealer img {
+    height: 200px;
+    width: 150px;
+    margin: 1px;
+}
+
+#cards_player img {
+    height: 200px;
+    width: 150px;
+    margin: 1px;
+}
+
+#deal {
+    font-weight: bold;
+    background-color: aqua;
+    border-width: 1px;
+    width: 100px;
+    height: 50px;
+}
+
+#hit {
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.856);
+    border-width: 1px;
+    width: 100px;
+    height: 50px;
+}
+
+#stand {
+    font-weight: bold;
+    background-color: rgb(175, 173, 173);
+    border-width: 1px;
+    width: 100px;
+    height: 50px;
+}
+
+#game_results {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
